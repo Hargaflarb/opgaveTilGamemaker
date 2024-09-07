@@ -25,6 +25,7 @@
     {"$GMFolder":"","%Name":"Sprites","folderPath":"folders/Sprites.yy","name":"Sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"environment","folderPath":"folders/Sprites/environment.yy","name":"environment","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"bagrounds","folderPath":"folders/Sprites/environment/bagrounds.yy","name":"bagrounds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"tile","folderPath":"folders/Sprites/environment/tile.yy","name":"tile","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Tile Sets","folderPath":"folders/Tile Sets.yy","name":"Tile Sets","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"Timelines","folderPath":"folders/Timelines.yy","name":"Timelines","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
@@ -42,6 +43,9 @@
     {"id":{"name":"cloud_big","path":"sprites/cloud_big/cloud_big.yy",},},
     {"id":{"name":"cloud_small","path":"sprites/cloud_small/cloud_small.yy",},},
     {"id":{"name":"Sky","path":"sprites/Sky/Sky.yy",},},
+    {"id":{"name":"Tiles_Ground","path":"sprites/Tiles_Ground/Tiles_Ground.yy",},},
+    {"id":{"name":"TileSet2","path":"tilesets/TileSet2/TileSet2.yy",},},
+    {"id":{"name":"TileSetGround","path":"tilesets/TileSetGround/TileSetGround.yy",},},
   ],
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
@@ -51,5 +55,6 @@
   "templateType":"game",
   "TextureGroups":[
     {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+    {"$GMTextureGroup":"","%Name":"tg","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"tg","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
   ],
 }
