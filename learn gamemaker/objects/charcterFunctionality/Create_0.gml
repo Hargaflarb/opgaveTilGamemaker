@@ -20,3 +20,17 @@ velocityY = 0;
 /// @DnDArgument : "expr" "1"
 /// @DnDArgument : "var" "grav_speed"
 grav_speed = 1;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 6DFD5572
+/// @DnDInput : 3
+/// @DnDArgument : "expr" "false"
+/// @DnDArgument : "expr_1" "x"
+/// @DnDArgument : "expr_2" "y"
+/// @DnDArgument : "var" "grounded"
+/// @DnDArgument : "var_1" "groundedX"
+/// @DnDArgument : "var_2" "groundedY"
+grounded = false;
+groundedX = x;
+groundedY = y;
