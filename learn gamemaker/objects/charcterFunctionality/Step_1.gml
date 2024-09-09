@@ -3,19 +3,16 @@
 /// @DnDHash : 48775A9D
 /// @DnDInput : 2
 /// @DnDArgument : "var" "grounded"
-/// @DnDArgument : "function" "check_collision()"
+/// @DnDArgument : "function" "check_collision"
 /// @DnDArgument : "arg" "0"
 /// @DnDArgument : "arg_1" "1"
-grounded = check_collision()(0, 1);
+grounded = check_collision(0, 1);
 
 /// @DnDAction : YoYo Games.Common.If_Variable
 /// @DnDVersion : 1
 /// @DnDHash : 16FB3D4B
 /// @DnDArgument : "var" "grounded"
-if(grounded == 0)
-{
-	/// @DnDAction : YoYo Games.Common.Variable
-
+if(grounded == 0){	/// @DnDAction : YoYo Games.Common.Variable
 	/// @DnDVersion : 1
 	/// @DnDHash : 47D31B37
 	/// @DnDInput : 2
@@ -25,8 +22,7 @@ if(grounded == 0)
 	/// @DnDArgument : "var" "groundedX"
 	/// @DnDArgument : "var_1" "groundedY"
 	groundedX = x;
-	groundedY = y;
-}
+	groundedY = y;}
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
